@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BA474361F8E91390085C7AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA474351F8E91390085C7AA /* AppDelegate.m */; };
+		6BA474391F8E91390085C7AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA474381F8E91390085C7AA /* ViewController.m */; };
+		6BA4743B1F8E91390085C7AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4743A1F8E91390085C7AA /* Assets.xcassets */; };
+		6BA4743E1F8E91390085C7AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4743C1F8E91390085C7AA /* Main.storyboard */; };
+		6BA474411F8E91390085C7AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA474401F8E91390085C7AA /* main.m */; };
+		6BA4744C1F8E91390085C7AA /* NNRunViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA4744B1F8E91390085C7AA /* NNRunViewerTests.m */; };
+		6BA474571F8E91390085C7AA /* NNRunViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BA474561F8E91390085C7AA /* NNRunViewerUITests.m */; };
+		6BA474711F8EB5B20085C7AA /* setupDirectory.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA474681F8EB5B10085C7AA /* setupDirectory.py */; };
+		6BA474721F8EB5B20085C7AA /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA474691F8EB5B10085C7AA /* main.py */; };
+		6BA474731F8EB5B20085C7AA /* parseHelper.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4746A1F8EB5B20085C7AA /* parseHelper.py */; };
+		6BA474741F8EB5B20085C7AA /* setupRecords.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4746B1F8EB5B20085C7AA /* setupRecords.py */; };
+		6BA474751F8EB5B20085C7AA /* NNRunClass.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4746C1F8EB5B20085C7AA /* NNRunClass.py */; };
+		6BA474761F8EB5B20085C7AA /* data.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4746D1F8EB5B20085C7AA /* data.py */; };
+		6BA474771F8EB5B20085C7AA /* setup.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4746E1F8EB5B20085C7AA /* setup.py */; };
+		6BA474781F8EB5B20085C7AA /* visualization.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA4746F1F8EB5B20085C7AA /* visualization.py */; };
+		6BA474791F8EB5B20085C7AA /* run.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BA474701F8EB5B20085C7AA /* run.py */; };
+		6BE953222033D9D6001B391C /* classification.py in Resources */ = {isa = PBXBuildFile; fileRef = 6BE953212033D9D6001B391C /* classification.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BA474481F8E91390085C7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BA474291F8E91390085C7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BA474301F8E91390085C7AA;
+			remoteInfo = NNRunViewer;
+		};
+		6BA474531F8E91390085C7AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BA474291F8E91390085C7AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BA474301F8E91390085C7AA;
+			remoteInfo = NNRunViewer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BA474311F8E91390085C7AA /* NNRunViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNRunViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA474341F8E91390085C7AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BA474351F8E91390085C7AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BA474371F8E91390085C7AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BA474381F8E91390085C7AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BA4743A1F8E91390085C7AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BA4743D1F8E91390085C7AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BA4743F1F8E91390085C7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA474401F8E91390085C7AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BA474421F8E91390085C7AA /* NNRunViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NNRunViewer.entitlements; sourceTree = "<group>"; };
+		6BA474471F8E91390085C7AA /* NNRunViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNRunViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA4744B1F8E91390085C7AA /* NNRunViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNRunViewerTests.m; sourceTree = "<group>"; };
+		6BA4744D1F8E91390085C7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA474521F8E91390085C7AA /* NNRunViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNRunViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA474561F8E91390085C7AA /* NNRunViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNRunViewerUITests.m; sourceTree = "<group>"; };
+		6BA474581F8E91390085C7AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BA474661F8EA95E0085C7AA /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
+		6BA474681F8EB5B10085C7AA /* setupDirectory.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setupDirectory.py; sourceTree = "<group>"; };
+		6BA474691F8EB5B10085C7AA /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		6BA4746A1F8EB5B20085C7AA /* parseHelper.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parseHelper.py; sourceTree = "<group>"; };
+		6BA4746B1F8EB5B20085C7AA /* setupRecords.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setupRecords.py; sourceTree = "<group>"; };
+		6BA4746C1F8EB5B20085C7AA /* NNRunClass.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = NNRunClass.py; sourceTree = "<group>"; };
+		6BA4746D1F8EB5B20085C7AA /* data.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = data.py; sourceTree = "<group>"; };
+		6BA4746E1F8EB5B20085C7AA /* setup.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = setup.py; sourceTree = "<group>"; };
+		6BA4746F1F8EB5B20085C7AA /* visualization.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = visualization.py; sourceTree = "<group>"; };
+		6BA474701F8EB5B20085C7AA /* run.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = run.py; sourceTree = "<group>"; };
+		6BE953212033D9D6001B391C /* classification.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = classification.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BA4742E1F8E91390085C7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA474441F8E91390085C7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4744F1F8E91390085C7AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BA474281F8E91390085C7AA = {
+			isa = PBXGroup;
+			children = (
+				6BA474331F8E91390085C7AA /* NNRunViewer */,
+				6BA4744A1F8E91390085C7AA /* NNRunViewerTests */,
+				6BA474551F8E91390085C7AA /* NNRunViewerUITests */,
+				6BA474321F8E91390085C7AA /* Products */,
+				6BA474651F8EA95E0085C7AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BA474321F8E91390085C7AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BA474311F8E91390085C7AA /* NNRunViewer.app */,
+				6BA474471F8E91390085C7AA /* NNRunViewerTests.xctest */,
+				6BA474521F8E91390085C7AA /* NNRunViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BA474331F8E91390085C7AA /* NNRunViewer */ = {
+			isa = PBXGroup;
+			children = (
+				6BA474641F8E916B0085C7AA /* Scripts */,
+				6BA474341F8E91390085C7AA /* AppDelegate.h */,
+				6BA474351F8E91390085C7AA /* AppDelegate.m */,
+				6BA474371F8E91390085C7AA /* ViewController.h */,
+				6BA474381F8E91390085C7AA /* ViewController.m */,
+				6BA4743A1F8E91390085C7AA /* Assets.xcassets */,
+				6BA4743C1F8E91390085C7AA /* Main.storyboard */,
+				6BA4743F1F8E91390085C7AA /* Info.plist */,
+				6BA474401F8E91390085C7AA /* main.m */,
+				6BA474421F8E91390085C7AA /* NNRunViewer.entitlements */,
+			);
+			path = NNRunViewer;
+			sourceTree = "<group>";
+		};
+		6BA4744A1F8E91390085C7AA /* NNRunViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BA4744B1F8E91390085C7AA /* NNRunViewerTests.m */,
+				6BA4744D1F8E91390085C7AA /* Info.plist */,
+			);
+			path = NNRunViewerTests;
+			sourceTree = "<group>";
+		};
+		6BA474551F8E91390085C7AA /* NNRunViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BA474561F8E91390085C7AA /* NNRunViewerUITests.m */,
+				6BA474581F8E91390085C7AA /* Info.plist */,
+			);
+			path = NNRunViewerUITests;
+			sourceTree = "<group>";
+		};
+		6BA474641F8E916B0085C7AA /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				6BE953212033D9D6001B391C /* classification.py */,
+				6BA4746D1F8EB5B20085C7AA /* data.py */,
+				6BA474691F8EB5B10085C7AA /* main.py */,
+				6BA4746C1F8EB5B20085C7AA /* NNRunClass.py */,
+				6BA4746A1F8EB5B20085C7AA /* parseHelper.py */,
+				6BA474701F8EB5B20085C7AA /* run.py */,
+				6BA4746E1F8EB5B20085C7AA /* setup.py */,
+				6BA474681F8EB5B10085C7AA /* setupDirectory.py */,
+				6BA4746B1F8EB5B20085C7AA /* setupRecords.py */,
+				6BA4746F1F8EB5B20085C7AA /* visualization.py */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		6BA474651F8EA95E0085C7AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BA474661F8EA95E0085C7AA /* Automator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BA474301F8E91390085C7AA /* NNRunViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA4745B1F8E91390085C7AA /* Build configuration list for PBXNativeTarget "NNRunViewer" */;
+			buildPhases = (
+				6BA4742D1F8E91390085C7AA /* Sources */,
+				6BA4742E1F8E91390085C7AA /* Frameworks */,
+				6BA4742F1F8E91390085C7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NNRunViewer;
+			productName = NNRunViewer;
+			productReference = 6BA474311F8E91390085C7AA /* NNRunViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BA474461F8E91390085C7AA /* NNRunViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA4745E1F8E91390085C7AA /* Build configuration list for PBXNativeTarget "NNRunViewerTests" */;
+			buildPhases = (
+				6BA474431F8E91390085C7AA /* Sources */,
+				6BA474441F8E91390085C7AA /* Frameworks */,
+				6BA474451F8E91390085C7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BA474491F8E91390085C7AA /* PBXTargetDependency */,
+			);
+			name = NNRunViewerTests;
+			productName = NNRunViewerTests;
+			productReference = 6BA474471F8E91390085C7AA /* NNRunViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BA474511F8E91390085C7AA /* NNRunViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA474611F8E91390085C7AA /* Build configuration list for PBXNativeTarget "NNRunViewerUITests" */;
+			buildPhases = (
+				6BA4744E1F8E91390085C7AA /* Sources */,
+				6BA4744F1F8E91390085C7AA /* Frameworks */,
+				6BA474501F8E91390085C7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BA474541F8E91390085C7AA /* PBXTargetDependency */,
+			);
+			name = NNRunViewerUITests;
+			productName = NNRunViewerUITests;
+			productReference = 6BA474521F8E91390085C7AA /* NNRunViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BA474291F8E91390085C7AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Brad Patterson";
+				TargetAttributes = {
+					6BA474301F8E91390085C7AA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					6BA474461F8E91390085C7AA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6BA474301F8E91390085C7AA;
+					};
+					6BA474511F8E91390085C7AA = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6BA474301F8E91390085C7AA;
+					};
+				};
+			};
+			buildConfigurationList = 6BA4742C1F8E91390085C7AA /* Build configuration list for PBXProject "NNRunViewer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BA474281F8E91390085C7AA;
+			productRefGroup = 6BA474321F8E91390085C7AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BA474301F8E91390085C7AA /* NNRunViewer */,
+				6BA474461F8E91390085C7AA /* NNRunViewerTests */,
+				6BA474511F8E91390085C7AA /* NNRunViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BA4742F1F8E91390085C7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE953222033D9D6001B391C /* classification.py in Resources */,
+				6BA474761F8EB5B20085C7AA /* data.py in Resources */,
+				6BA474711F8EB5B20085C7AA /* setupDirectory.py in Resources */,
+				6BA4743B1F8E91390085C7AA /* Assets.xcassets in Resources */,
+				6BA474781F8EB5B20085C7AA /* visualization.py in Resources */,
+				6BA474751F8EB5B20085C7AA /* NNRunClass.py in Resources */,
+				6BA474771F8EB5B20085C7AA /* setup.py in Resources */,
+				6BA474731F8EB5B20085C7AA /* parseHelper.py in Resources */,
+				6BA4743E1F8E91390085C7AA /* Main.storyboard in Resources */,
+				6BA474721F8EB5B20085C7AA /* main.py in Resources */,
+				6BA474791F8EB5B20085C7AA /* run.py in Resources */,
+				6BA474741F8EB5B20085C7AA /* setupRecords.py in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA474451F8E91390085C7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA474501F8E91390085C7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BA4742D1F8E91390085C7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA474391F8E91390085C7AA /* ViewController.m in Sources */,
+				6BA474411F8E91390085C7AA /* main.m in Sources */,
+				6BA474361F8E91390085C7AA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA474431F8E91390085C7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA4744C1F8E91390085C7AA /* NNRunViewerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA4744E1F8E91390085C7AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA474571F8E91390085C7AA /* NNRunViewerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BA474491F8E91390085C7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BA474301F8E91390085C7AA /* NNRunViewer */;
+			targetProxy = 6BA474481F8E91390085C7AA /* PBXContainerItemProxy */;
+		};
+		6BA474541F8E91390085C7AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BA474301F8E91390085C7AA /* NNRunViewer */;
+			targetProxy = 6BA474531F8E91390085C7AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BA4743C1F8E91390085C7AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BA4743D1F8E91390085C7AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BA474591F8E91390085C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6BA4745A1F8E91390085C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6BA4745C1F8E91390085C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NNRunViewer/NNRunViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NNRunViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bradleypatterson.NNRunViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BA4745D1F8E91390085C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NNRunViewer/NNRunViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NNRunViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bradleypatterson.NNRunViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BA4745F1F8E91390085C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NNRunViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bradleypatterson.NNRunViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNRunViewer.app/Contents/MacOS/NNRunViewer";
+			};
+			name = Debug;
+		};
+		6BA474601F8E91390085C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NNRunViewerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bradleypatterson.NNRunViewerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NNRunViewer.app/Contents/MacOS/NNRunViewer";
+			};
+			name = Release;
+		};
+		6BA474621F8E91390085C7AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NNRunViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bradleypatterson.NNRunViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNRunViewer;
+			};
+			name = Debug;
+		};
+		6BA474631F8E91390085C7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NNRunViewerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Bradleypatterson.NNRunViewerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NNRunViewer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BA4742C1F8E91390085C7AA /* Build configuration list for PBXProject "NNRunViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA474591F8E91390085C7AA /* Debug */,
+				6BA4745A1F8E91390085C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA4745B1F8E91390085C7AA /* Build configuration list for PBXNativeTarget "NNRunViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA4745C1F8E91390085C7AA /* Debug */,
+				6BA4745D1F8E91390085C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA4745E1F8E91390085C7AA /* Build configuration list for PBXNativeTarget "NNRunViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA4745F1F8E91390085C7AA /* Debug */,
+				6BA474601F8E91390085C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA474611F8E91390085C7AA /* Build configuration list for PBXNativeTarget "NNRunViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BA474621F8E91390085C7AA /* Debug */,
+				6BA474631F8E91390085C7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BA474291F8E91390085C7AA /* Project object */;
+}
